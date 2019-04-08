@@ -11,7 +11,7 @@ with open(os.path.join(HERE, "README.md")) as fid:
 # This call to setup() does all the work
 setup(
     name="bigdatacloudapi-client",
-    version="1.0.0",
+    version="1.0.1",
     description="A Python client for BigDataCloud API connectivity (https://www.bigdatacloud.net)",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -26,5 +26,5 @@ setup(
         "Programming Language :: Python :: 3",
     ],
     packages=["bigdatacloudapi"],
-    install_requires=["requests","re","json"]
+    install_requires=["requests"]
 )

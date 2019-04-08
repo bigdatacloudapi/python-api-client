@@ -58,8 +58,8 @@ client = bigdatacloudapi.Client(apiKey)
 resultObject,httpResponseCode = client.getIpGeolocationFull({"ip":"8.8.8.8"})
 
 print('HTTP Response Code: ',httpResponseCode)
-print('Result: ',resultObject['ip'])
-print('Result: ',resultObject['ip'])
+print('Lookup IP: ',resultObject['ip'])
+print('Result: ',resultObject)
 ```
 
 
