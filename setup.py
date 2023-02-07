@@ -12,12 +12,12 @@ with open(os.path.join(HERE, "README.md")) as fid:
 setup(
     name="bigdatacloudapi-client",
     version="1.0.1",
-    description="A Python client for BigDataCloud API connectivity (https://www.bigdatacloud.net)",
+    description="A Python client for BigDataCloud API connectivity (https://www.bigdatacloud.com)",
     long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/bigdatacloudapi/python-api-client",
     author="BigDataCloud",
-    author_email="support@bigdatacloud.net",
+    author_email="support@bigdatacloud.com",
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
