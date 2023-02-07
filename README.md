@@ -193,11 +193,21 @@ print('Result: ',resultObject)
     "securityThreat": "unknown",
     "hazardReport": {
         "isKnownAsTorServer": false,
+        "isKnownAsVpn": false,
         "isKnownAsProxy": false,
+        "isSpamhausDrop": false,
+        "isSpamhausEdrop": false,
+        "isSpamhausAsnDrop": false,
+        "isBlacklistedUceprotect": false,
+        "isBlacklistedBlocklistDe": false,
         "isKnownAsMailServer": false,
         "isKnownAsPublicRouter": false,
         "isBogon": false,
-        "isUnreachable": false
+        "isUnreachable": false,
+        "hostingLikelihood": 0,
+        "isHostingAsn": false,
+        "isCellular": false,
+        "iCloudPrivateRelay": false
     }
 }
 ```
