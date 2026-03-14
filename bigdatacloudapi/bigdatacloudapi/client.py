@@ -7,7 +7,7 @@ class Client:
 		self,
 		apiKey,
 		nameSpace='data',
-		server='api.bigdatacloud.net'
+		server='api-bdc.net'
 		):
 		self.apiKey=apiKey
 		self.nameSpace=nameSpace
