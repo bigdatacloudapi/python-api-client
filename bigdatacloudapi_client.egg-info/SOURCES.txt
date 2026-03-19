@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+bigdatacloudapi/__init__.py
+bigdatacloudapi/client.py
+bigdatacloudapi_client.egg-info/PKG-INFO
+bigdatacloudapi_client.egg-info/SOURCES.txt
+bigdatacloudapi_client.egg-info/dependency_links.txt
+bigdatacloudapi_client.egg-info/requires.txt
+bigdatacloudapi_client.egg-info/top_level.txt
